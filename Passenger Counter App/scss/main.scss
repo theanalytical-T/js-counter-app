@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-image: url(../img/tobias-reich-XLnJtN6aDiM-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    // filter:blur(5px);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: rgb(245, 145, 13);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.3rem;
+    // font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.1px;
+    padding-top: 200px;
+    z-index: -1;
+    // filter:blur(5px);
+
+    & > button {
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 2.2rem;
+        font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 24rem;
+        height: 5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        // cursor: pointer;
+    }
+}
+
+#count-el {
+    margin: 0;
+    padding: 0;
+}
+
+#increment-btn {
+    background-color: rgb(119, 30, 30);
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+#save-btn {
+    background-color: rgb(33, 105, 27);
+}
+
+// An example of when the cursor hovers over the image it grayscales and blurs revealing clear text
+// <div class="ar-image">
+//      <div style="background: url('http://maximumwallhd.com/wp-content/uploads/2015/06/fonds-ecran-plage-palmier-12-660x330.jpg')" class="article-image"></div>
+//        <p>Lire plus</p>
+//   </div>
+
+// .article-image{
+//     height: 150px;
+//     width: 238px;
+//     -webkit-filter: grayscale(0) blur(0);
+//     filter: grayscale(0) blur(0);
+//     transition: .4s ease-in-out;
+// }
+
+// .ar-image:hover .article-image{
+//     -webkit-filter: grayscale(100%) blur(2px);
+//     filter: grayscale(100%) blur(2px);
+//     transition: .4s ease-in-out;
+// }
+
+// .ar-image{
+//     position: relative;
+//     width: 238px;
+//     height: 150px;
+// }
+
+// .ar-image > p{
+//     display: none;
+// }
+
+// .ar-image:hover > p{
+//     position: absolute;
+//     top: 0;
+//     display: block;
+//     color: #ffffff;
+//     font-size: 16px;
+//     font-weight: bold;
+//     z-index: 0;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     transition: .4s ease-in-out;
+//     line-height:150px;
+//     margin:0;
+// }
